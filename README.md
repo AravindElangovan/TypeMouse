@@ -8,15 +8,15 @@ for those with access to only one hand.
 ##Usage
 
 Control Scheme Setup for Logitech G500 (see Installation for more information):
--Middle Thumb Button: Enable/Disable TypeMouse
--Scroll Wheel: Scroll Through Characters in Current Set
--Left Mouse Button: Prev Character
--Right Mouse Button: Next Character
--Middle Click: Enter
--Forward Thumb Button: Space
--Backward Thumb Button: Backspace
--DPI Up: Next Set of Characters
--DPI Down: Previous Set of Characters
+- Middle Thumb Button: Enable/Disable TypeMouse
+- Scroll Wheel: Scroll Through Characters in Current Set
+- Left Mouse Button: Prev Character
+- Right Mouse Button: Next Character
+- Middle Click: Enter
+- Forward Thumb Button: Space
+- Backward Thumb Button: Backspace
+- DPI Up: Next Set of Characters
+- DPI Down: Previous Set of Characters
 
 Note: Character sets are cyclical lists of similar characters. The character sets
 in TypeMouse include lowercase alphabet, uppercase alphabet, brackets, punctuation,
@@ -36,9 +36,9 @@ uppercase, etc) to Shift-CTRL-ALT A and Shift-CTRL-ALT-B. These steps are necess
 buttons beyond the 5 standard ones have no standard bindings. In later iterations of TypeMouse, 
 these requirements could be met using a configuration file.
 
--A compiled EXE is included in Releases that will immediately start the script in the Windows tray.
--The AutoHotKey script is included as source code. This can be run using AutoHotKey, where it will behave the same as the EXE.
+- A compiled EXE is included in Releases that will immediately start the script in the Windows tray.
+- The AutoHotKey script is included as source code. This can be run using AutoHotKey, where it will behave the same as the EXE.
 
 ##Known Problems:
--Typing in autocomplete forms like the Chrome Omnibar and Firefox address bar cause issues as it fills text in while you are scrolling through characters.
--Certain applications (i.e. Teamspeak 3) do not recognize the rebound commands, presumably because they implement low-level driver interaction.
+- Typing in autocomplete forms like the Chrome Omnibar and Firefox address bar cause issues as it fills text in while you are scrolling through characters.
+- Certain applications (i.e. Teamspeak 3) do not recognize the rebound commands, presumably because they implement low-level driver interaction.
